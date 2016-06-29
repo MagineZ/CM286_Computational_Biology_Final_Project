@@ -10,10 +10,19 @@ In order to correctly dose patients with proper amounts of LT4 on the first try,
 This project shows the results of a literature search through modern dosing algorithms being developed by various researchers and includes the implementation of these algorithms into a thyroid hormone simulation application called “Thyrosim”
 
 ## Thyroid Dynamics
-![example1](https://github.com/MagineZ/CM286_Computational_Biology_Final_Project/blob/master/Pictures/Thyrosim_dynamics.jpg)
+![Dynamic Model](https://github.com/MagineZ/CM286_Computational_Biology_Final_Project/blob/master/Pictures/Thyrosim_dynamics.jpg)
+
+##Dynamic Model Modification
+![Model Modification](https://github.com/MagineZ/CM286_Computational_Biology_Final_Project/blob/master/Pictures/Model.png)
 
 ##Lean Body Mass
-![example1](https://github.com/MagineZ/CM286_Computational_Biology_Final_Project/blob/master/Pictures/Lean_Body_Mass.png)
-![example2](https://github.com/MagineZ/CM286_Computational_Biology_Final_Project/blob/master/Pictures/Body_Mass_Correlation.png)
+![Lean Body Mass](https://github.com/MagineZ/CM286_Computational_Biology_Final_Project/blob/master/Pictures/Lean_Body_Mass.png)
+![Estimation](https://github.com/MagineZ/CM286_Computational_Biology_Final_Project/blob/master/Pictures/Body_Mass_Correlation.png)
+![Estimation](https://github.com/MagineZ/CM286_Computational_Biology_Final_Project/blob/master/Pictures/Lean_Body_Mass_Estimation.png)
+
+##BMI Dosing
+![example1](https://github.com/MagineZ/CM286_Computational_Biology_Final_Project/blob/master/Pictures/BMI_Dosing.png)
+
+
 
 

@@ -21,8 +21,18 @@ This project shows the results of a literature search through modern dosing algo
 ![Estimation](https://github.com/MagineZ/CM286_Computational_Biology_Final_Project/blob/master/Pictures/Lean_Body_Mass_Estimation.png)
 
 ##BMI Dosing
-![example1](https://github.com/MagineZ/CM286_Computational_Biology_Final_Project/blob/master/Pictures/BMI_Dosing.png)
+![BMI Dosing](https://github.com/MagineZ/CM286_Computational_Biology_Final_Project/blob/master/Pictures/BMI_Dosing.png)
 
+##Volume/Weight Estimation
+![Plasma](https://github.com/MagineZ/CM286_Computational_Biology_Final_Project/blob/master/Pictures/Plasma_V_Estimation.png)
+![Tissue](https://github.com/MagineZ/CM286_Computational_Biology_Final_Project/blob/master/Pictures/Tissue.png)
 
+##Test
+![Test](https://github.com/MagineZ/CM286_Computational_Biology_Final_Project/blob/master/Pictures/Test.png)
 
+##Results
+![Men1](https://github.com/MagineZ/CM286_Computational_Biology_Final_Project/blob/master/Pictures/Male_dose1.jpg)
+![Men2](https://github.com/MagineZ/CM286_Computational_Biology_Final_Project/blob/master/Pictures/Male_dose2.jpg)
 
+![Female1](https://github.com/MagineZ/CM286_Computational_Biology_Final_Project/blob/master/Pictures/female_dose1.jpg)
+![Female2](https://github.com/MagineZ/CM286_Computational_Biology_Final_Project/blob/master/Pictures/female_dose.jpg2.jpg)

@@ -1,0 +1,19 @@
+# CM286_Computational_Biology_Final_Project
+
+Supplementing thyroid hormone deficiency with levothyroxine (LT4) has become the standard of care after a total thyroidectomy. 
+A thyroidectomy has become a common treatment for various hyperthyroid diseases; this has led to extensive studies of proper LT4 dosing.
+Historically, LT4 dosing is based on the patient’s body weight (BW), with the most common oral dose of LT4 being 1.6ug/kg/day. 
+This dose is assuming that there are no malabsorption problems or ionic supplements being taken for other metabolic imbalances. 
+Using this dosing scheme, some patients are over-prescribed and some are under-prescribed, creating the need for follow up appointments to check thyroid stimulating hormone levels (TSH). 
+T4 levels regulate the amount of TSH in the body and TSH levels between .5-5 mU/L correspond to normal T4 and T3 levels in the rest of the body. 
+In order to correctly dose patients with proper amounts of LT4 on the first try, researchers have looked in to other correlations between optimal LT4 dosing and other anthropometric measurements including: body surface area (BSA), body mass index (BMI), lean body mass (LBM), sex and age. 
+This project shows the results of a literature search through modern dosing algorithms being developed by various researchers and includes the implementation of these algorithms into a thyroid hormone simulation application called “Thyrosim”
+
+## Thyroid Dynamics
+![example1](https://github.com/MagineZ/CM286_Computational_Biology_Final_Project/blob/master/Pictures/Thyrosim_dynamics.jpg)
+
+##Lean Body Mass
+![example1](https://github.com/MagineZ/CM286_Computational_Biology_Final_Project/blob/master/Pictures/Lean_Body_Mass.png)
+![example2](https://github.com/MagineZ/CM286_Computational_Biology_Final_Project/blob/master/Pictures/Body_Mass_Correlation.png)
+
+

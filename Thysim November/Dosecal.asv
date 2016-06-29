@@ -1,0 +1,12 @@
+function y = Dosecal(BW,Ht,Age,gender,LBM_option,Dose_option)
+LBM = LBMcal(BW,Ht,Age,gender,LBM_option);
+BMI = BW/(Ht/100)^2;
+
+if Dose_option ==1
+    y = 63.323+1.521*LBM;
+end
+if Dose_option ==2
+    if BMI<=23
+        if Age<=40
+            y = BW*1.8;
+            if Age>40

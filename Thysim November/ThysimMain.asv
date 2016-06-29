@@ -1,0 +1,32 @@
+global BW Ht Age Hct LBM Vp BV Ot VpR OtR kOP kPO
+BW = [100,75,45];%kg
+Ht = 175;%cm
+Age = 25;
+Hct = 0.4;%Hematocrit value
+LBMcal_option = 4; %LBM calcuation method option 1,2,3,4
+Dosecal_option = 2;%LBM calcuation method option 1,2,
+gender = 1;%1 for man 0 for woman
+bg = 1.060;%Blood gravity
+
+InitializeClassicParameters(BW(1),Ht,Age,gender,Hct,bg,LBMcal_option,Dosecal_option)
+InitializeDataPoints()
+global y0 options tspan%grab globals that were defined inside the initialize functions
+% Units: y0(10) = 3.8610 translates to 3000 ug bolus of T4 hormone into the Gut
+global time y % make time and y globals, so other functions can call on them
+[time, y]=ode15s(@ODEsClassic, tspan, y0, options);
+% Plot the curve produced by time and y
+PlotSetup2
+PlotExperiment('r')
+
+InitializeClassicParameters(BW(2),Ht,Age,gender,Hct,bg,LBMcal_option,Dosecal_option)
+InitializeDataPoints()
+global y0 options tspan
+[time, y]=ode15s(@ODEsClassic, tspan, y0, options);
+PlotExperiment('g')
+
+InitializeClassicParameters(BW(3),Ht,Age,gender,Hct,bg,LBMcal_option,Dosecal_option)
+InitializeDataPoints()
+global y0 options tspan
+[time, y]=ode15s(@ODEsClassic, tspan, y0, options);
+PlotExperiment('b')
+legend('obese','normal','slim')

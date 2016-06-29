@@ -25,7 +25,7 @@ This project shows the results of a literature search through modern dosing algo
 
 ##Volume/Weight Estimation
 ![Plasma](https://github.com/MagineZ/CM286_Computational_Biology_Final_Project/blob/master/Pictures/Plasma_V_Estimation.png)
-![Tissue](https://github.com/MagineZ/CM286_Computational_Biology_Final_Project/blob/master/Pictures/Tissue.png)
+![Tissue](https://github.com/MagineZ/CM286_Computational_Biology_Final_Project/blob/master/Pictures/Tissue_Estimation.png)
 
 ##Test
 ![Test](https://github.com/MagineZ/CM286_Computational_Biology_Final_Project/blob/master/Pictures/Test.png)
